@@ -15,4 +15,8 @@ public class FibonacciSeries {
             secondTerm = nextTerm;
         }
     }
+
+//    public static void main(String[] args) {
+//        printFibonacci(5);
+//    }
 }

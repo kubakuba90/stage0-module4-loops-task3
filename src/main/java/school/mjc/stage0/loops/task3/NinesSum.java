@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class NinesSum {
-    public static void calculateSum(int lengthOfLastNumber) {
+    public void calculateSum(int lengthOfLastNumber) {
         String regex = "[9]+"; // + means one more time
         String convIntStr;
         boolean foundNine;
